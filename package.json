@@ -5,18 +5,19 @@
   },
   "dependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build:html & npm run build:css & npm run build:js",
+    
     "serve": "live-server public_html",
-    "publish": "gulp publish"
-  },
-  "start": "react-scripts start",
-  "pre-deploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
+    "publish": "gulp publish",
+    "start": "react-scripts start",
+    "pre-deploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
 }
+  
+
 
   
   
